@@ -2,7 +2,6 @@ use std::{error::Error, fs, env};
 use ansi_term::Colour::{Green, Red, Cyan};
 
 pub fn header_text(config: &Config) {
-    // println!("=================");
     println!("====mini-grep====");
     println!("Querying term: {}", Green.paint(&config.query));
     println!("In File: {}", Red.paint(&config.filename));
