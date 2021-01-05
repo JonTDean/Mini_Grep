@@ -50,7 +50,7 @@ The application checks text by each new line. The terminal then returns output o
     cargo run foo foobar.txt
   ```
 
-The Output becomes: "My name is foo bar,"
+The Terminal Output is: "My name is foo bar,"
 
 ### **Case Insensitive Search**
 
