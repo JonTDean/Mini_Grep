@@ -106,4 +106,4 @@ OR
 
 ## Dependencies
 
-What are the main outside resources your project needs to run?
+Only dependency necessary for this is ansi_term. This is used to colorize the output of the terminal.
