@@ -74,6 +74,8 @@ Windows allows you to set the environment variables via the `set` command.
 
 ##### **SETTING ENV**
 
+This sets the environment variable in the OS and allows the program to perform C.I.S. .
+
 ```CMD
     set CASE_INSENSITIVE=1
 
@@ -85,8 +87,6 @@ OR
 ```CMD
     set CASE_INSENSITIVE=1 && cargo run QUERY_TERM FILENAME.FILE_EXTENSION
 ```
-
-This sets the environment variable in the OS and allows the program to perform C.I.S. .
 
 ##### **UNSET ENV**
 
